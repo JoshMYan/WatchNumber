@@ -1,0 +1,30 @@
+Jul. 18, 2019 Thu. 17:07:50
+Trained for 3000 times and tested for 1000 times.
+Repeat times: 20
+    In: 784; Out: 10; 
+    Learning rate: 0.22;
+    Hidden layers: (100,);
+Accuracy: 0.87 0.87 0.88 0.88 0.88 0.87 0.87 0.88 0.87 0.86 0.88 0.88 0.88 0.87 0.88 0.88 0.88 0.87 0.88 0.87 
+Mean accuracy: 0.874
+Action takes 84.93171 seconds.
+
+Jul. 18, 2019 Thu. 17:09:15
+Trained for 3000 times and tested for 1000 times.
+Repeat times: 20
+    In: 784; Out: 10; 
+    Learning rate: 0.22;
+    Hidden layers: (200,);
+Accuracy: 0.89 0.87 0.88 0.88 0.89 0.88 0.88 0.88 0.89 0.88 0.88 0.89 0.89 0.88 0.88 0.88 0.88 0.88 0.89 0.88 
+Mean accuracy: 0.881
+Action takes 157.13755 seconds.
+
+Jul. 18, 2019 Thu. 17:11:52
+Trained for 3000 times and tested for 1000 times.
+Repeat times: 20
+    In: 784; Out: 10; 
+    Learning rate: 0.22;
+    Hidden layers: (400,);
+Accuracy: 0.87 0.87 0.88 0.88 0.87 0.88 0.89 0.89 0.88 0.89 0.88 0.88 0.88 0.88 0.88 0.88 0.88 0.88 0.89 0.87 
+Mean accuracy: 0.88
+Action takes 286.89443 seconds.
+
