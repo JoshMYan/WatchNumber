@@ -29,3 +29,14 @@ def report(obj, trainCount, testCount, correctFirst, correctSecond = -1, correct
 
 def current():
     return time.strftime("%b. %d, %Y %a. %H:%M:%S", time.localtime())
+
+class stopwatch:
+    # init
+    def __init__(self):
+        self.timestamp = time.time()
+    # reset
+    def reset(self):
+        self.timestamp = time.time()
+    def lap(self):
+        return time.time() - self.timestamp
+
