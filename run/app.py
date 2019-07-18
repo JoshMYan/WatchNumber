@@ -22,7 +22,7 @@ def main(logFile, t, rate, *hiddenNodes):
         mean += accuracy
     timeSpent = str(round(watch.lap(), 5))
     mean = 1.0 * mean / t
-    logFile.write("\nMean accuracy: " + str(round(mean, 3)))
+    logFile.write("\nAverage accuracy: " + str(round(mean, 3)))
     logFile.write("\nAction takes " + timeSpent + " seconds.")
     logFile.write("\n\n")
     logFile.flush()
@@ -32,10 +32,7 @@ def main(logFile, t, rate, *hiddenNodes):
 f = open("./experiment.log", 'a')
 watch = support.stopwatch()
 # main(f, 20, 0.22, 100, 100)
+# main(f, 20, 0.22, 150, 100)
 # main(f, 20, 0.22, 200, 100)
-# main(f, 20, 0.22, 200, 200)
-main(f, 20, 0.22, 220)
-main(f, 20, 0.22, 240)
-main(f, 20, 0.22, 260)
-main(f, 20, 0.22, 280)
+main(f, 20, 0.22, 150)
 f.close()
